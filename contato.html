@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - Rafael Moz</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--    Bootstrap cdn-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- icons-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    <!--    Jquery cdn-->
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    
+    <!--    Greensock-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+</head>
+<body>
+        <div class="page">
+            <span class="menu_toggle">
+                <i class="menu_open fa fa-bars fa-lg"></i>
+                <i class="menu_close fa fa-times fa-lg"></i>
+            </span>
+    
+            <ul class="menu_items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre mim</a></li>
+                <li><a href="work.html">Trabalhos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            
+        <main class="content">
+                <div class="contact-section">
+                        <div class="content_inner">
+                                <h1 class="titulos">Entre em contato</h1>
+                        </div>
+                        <form class="contact-form" action="mail.php" method="post">
+                          <input type="text" name="nome" class="contact-form-text" placeholder="Nome" required>
+                          <input type="email" name="email" class="contact-form-text" placeholder="E-mail" required>
+                          <input type="text" name="telefone" class="contact-form-text" placeholder="Telefone" required>
+                          <textarea class="contact-form-text" name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                        <div class="btn-align">
+                          <input type="submit" class="contact-form-btn" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+
+                <footer class="main-footer">
+                    <div class="footer-social-icons">
+                        <ul>
+                        <li><a href="https://www.linkedin.com/in/rafael-jorge-moz-b7835b64/" target="blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="mailto:rafael.moz@hotmail.com" target="blank"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="https://github.com/rafaelmoz" target="blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-menu-one">
+                        <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Quem sou eu</a></li>
+                        <li><a href="work.html">Trabalhos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </footer>   
+            </div>       
+        </main>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/script.js"></script>  
+</body>
+</html>
+
